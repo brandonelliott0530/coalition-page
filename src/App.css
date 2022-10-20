@@ -1,5 +1,7 @@
 html {
   background-color: #002039 ;
+  padding: 0px;
+  margin: 0px
 }
 .PageNav {
   display: flex;
