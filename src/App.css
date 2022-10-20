@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+html {
+  background-color: #002039 ;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.PageNav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100vw;
+
+
+}
+
+#mainBackground {
+  background-image: url(./components/images/LosAngeles.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  height: 100vh;
+    width: 100vw;
+  border-bottom: 2px solid #002039;
+    
+}
+  
+
+
+.navItems {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
   color: white;
+  list-style-type: none
 }
 
-.App-link {
-  color: #61dafb;
+.listItem {
+  margin-left: 45px;
+  border-bottom: 1px solid white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#mountainLogo {
+  border-radius: 50%;
+  height: 45px;
+  margin-top: 10px;
 }
